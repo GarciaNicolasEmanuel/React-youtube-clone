@@ -5,6 +5,7 @@ import { Grid } from "@material-ui/core";
 import VideoItem from "./VideoItem";
 
 export default ({ videos, onVideoSelect }) => {
+  
   const listOfVideos = videos.map(video => (
     <VideoItem
       onVideoSelect={onVideoSelect}
